@@ -1,0 +1,6 @@
+# WAP for printing an reverse order using for loop
+
+n = int(input("Enter a number : "))
+
+for i in range(1,11):
+    print(f"{n}*{11-i} = {11-i}")
